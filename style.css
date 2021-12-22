@@ -18,7 +18,8 @@ body {
 
 .header {
     display: flex;
-    margin: 8px 15%;
+    margin: 8px auto;
+    width: 920px;
     justify-content: space-between;
     align-items: center;
 }
@@ -42,7 +43,9 @@ body {
     display: flex;
     font-size: 18px;
     color:#E5E7EB;
-    margin: 60px 15%;
+    margin: 60px auto;
+    max-width: 920px;
+    justify-content: center;
 }
 
 .panel-left {
@@ -125,7 +128,8 @@ body {
     font-weight: lighter;
     font-style: italic;
     color:#1F2937;
-    margin: 80px 160px 8px 160px;
+    margin: 80px auto 20px auto;
+    max-width: 880px;
 }
 
 .attribution {
@@ -133,5 +137,45 @@ body {
     font-weight: bold;
     color:#1F2937;
     text-align: right;
-    margin: 0 160px 80px 160px;
+    margin: 0 auto 80px auto;
+    width: 880px;
+}
+
+.action-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-block {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    align-items: center;
+    color: #E5E7EB;
+    border-radius: 6px;
+    padding: 36px 64px;
+    margin: 68px 13%;
+}
+
+.action-block h3 {
+    margin:0;
+    color:#E5E7EB;
+}
+
+.action-block button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    margin-left: 60px;
+    padding: 6px 32px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 3px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 24px;
 }
